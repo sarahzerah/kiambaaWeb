@@ -589,16 +589,13 @@ f19433
   text-align: center;
 }
 
-.features {
-  margin-top: -100px;
-}
 
 .feature-item {
   flex-basis: 33.33%;
   margin: 0px 10px;
-  padding: 40px 30px;
+  /* padding: 40px 30px; */
   background-color: #fff;
-  border-radius: 15px 15px 15px 15px;
+  /* border-radius: 15px 15px 15px 15px; */
   box-shadow: 0px 0px 30px 0px rgba(56, 4, 243, 0.1);
 }
 
@@ -1089,7 +1086,7 @@ f19433
 .tag-option a {
   border: 1px solid #eff0f3;
   padding: 6px 12px;
-  color: #6F8BA4;
+  color:#2e3192;
   font-size: 14px;
 }
 
