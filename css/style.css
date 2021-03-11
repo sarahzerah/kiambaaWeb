@@ -91,6 +91,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   border-radius: 5px;
   border: 2px solid transparent;
   transition: all .35s ease;
+  margin-left: 440px;
 }
 
 .btn.btn-icon i {
@@ -1670,7 +1671,7 @@ h1 {
       }
   .slideshow-container {
         max-width: 2500px;
-        position: relative;
+        position: absolute;
         /* margin: auto; */
         height: 78vh;
       }
@@ -1680,14 +1681,14 @@ h1 {
         color: #2e3192;
         font-family: source sans regular;
         /* font-size: 48px; */
-        padding: 8px 12px;
-        position: absolute;
-        bottom: 100px;
+        /* padding: 8px 12px; */
+        position: relative;
+        /* bottom: 100px; */
         /* width: 100%; */
         /* font-weight: 400; */
-        /* text-align: top; */
-        margin-left: 10px;
-        /* margin-top: -30px; */
+        text-align: top;
+        /* margin-left: 10px; */
+        margin-top: -30px;
       }
 
 
