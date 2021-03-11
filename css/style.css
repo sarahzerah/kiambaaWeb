@@ -25,6 +25,7 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: 44px;
+  font-weight: 700;
 }
 
 h3, .h3 {
@@ -468,6 +469,8 @@ a:focus {
 }
 
 .banner .block h1 {
+  font-weight: 700;
+  font-family: source sans reqular;
   font-size: 60px;
   line-height: 1.2;
   letter-spacing: -1.2px;
@@ -481,6 +484,7 @@ a:focus {
 
 .text-color {
   color: #223a66;
+  /* font-size: 48px; */
 }
 
 .text-color-2 {
@@ -1666,7 +1670,7 @@ h1 {
       }
   .slideshow-container {
         max-width: 2500px;
-        /* position: relative; */
+        position: relative;
         /* margin: auto; */
         height: 78vh;
       }
@@ -1674,15 +1678,16 @@ h1 {
       /* Caption text */
       .text {
         color: #2e3192;
+        font-family: source sans regular;
         /* font-size: 48px; */
         padding: 8px 12px;
         position: absolute;
         bottom: 100px;
         /* width: 100%; */
         /* font-weight: 400; */
-        text-align: top;
+        /* text-align: top; */
         margin-left: 10px;
-        /* margin-top: -10px; */
+        /* margin-top: -30px; */
       }
 
 
@@ -1698,7 +1703,7 @@ h1 {
           opacity: .4
         }
         to {
-          opacity: 1
+          opacity: 2
         }
       }
       @keyframes fade {
@@ -1706,7 +1711,7 @@ h1 {
           opacity: .4
         }
         to {
-          opacity: 1
+          opacity: 2
         }
       }
       /* On smaller screens, decrease text size */
